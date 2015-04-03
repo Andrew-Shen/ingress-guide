@@ -1,6 +1,5 @@
 ## Ingress 新手入门
 
-
 ### 写在前面
 这是一份进阶的新手入门指南. 如果您第一次进行游戏, 请先通过游戏内置的教程以及阅读 Google 官方的新手入门教程学习基本概念与基本操作: https://support.google.com/ingress/?hl=zh-Hans
 
@@ -14,7 +13,7 @@
     - 请务必从 Google Play (Android) 或者 App Store (iOS) 上获得游戏. 曾经有很多使用第三方市场上的 Ingress 从而被封号的案例.
     - 请务必保持一人一帐号. 任何小号, 包括仓库号, 都是被禁止的.
     - 原则上, 官方不限制一号多机. 但以一号多机的形式与其他玩家分享账号是被禁止的.
-    - 请不要伪造地点(俗称"飞机").
+    - 请不要伪造地点(俗称"飞机"). 有一类不可避免的情况是 GPS 出现漂移(在室内经常出现). 在 GPS 出现漂移时, 请不要进行任何操作. 请重启游戏或等待 GPS 恢复正常, 在恢复正常地点时再进行操作. 
 
 - Contact with Users and Bystanders.
     >Unwanted physical contact with anyone while playing the game? Unwanted videotaping or photographing of other players or bystanders? Insults or obscenities directed toward other players or bystanders? Are you kidding? No - don't do it. If someone is being aggressive, trolling, offensive, overly protective of a specific Portal or just plain gets on your nerves; ignore them and don't engage. Temporarily remove yourself from the situation and/or block them in Comm.
@@ -25,6 +24,7 @@
 
     类似地, 当怀疑对方有作弊行为时, 请直接举报(可以通过此页面举报作弊的玩家: https://support.google.com/ingress/#topic=3261401&contact=1&ts=3453649). **不要在公频中@对方或者要求对方露面.**
 
+还需要注意, 游戏鼓励玩家步行. 当运动速度超过 40km/h 时, 将会受到游戏的惩罚: 无法充电, Hack 得不到物品等. 出现这种情况时往往过一段时间后重启游戏即可. 
 ### 辅助工具
 #### Intel Map
 从官方的 Intel Map 上, 可以及时查看到世界上任何一处的游戏信息:
@@ -67,37 +67,155 @@ Android 系统中有一些十分实用的 App 可以配合 Ingress 游戏使用:
 
 
 ### 等级解析
+每位玩家在认证之前只有仓位上限100. 认证之后仓位上限为2000. 这一数字不会随着等级的提高而增加. 
+
+| 等级     |  升级所需 AP|   XM 上限  | 充电距离上限 |
+| :--------: | :--------:| :------: | :------: |
+| L 1    |   0 AP | 3000 XM  | 250 km |
+| L 2    |   2,500 AP | 4000 XM  | 500 km |
+| L 3    |   20,000 AP | 5000 XM  | 750 km |
+| L 4    |   70,000 AP | 6000 XM  | 1000 km |
+| L 5    |   150,000 AP | 7000 XM  | 1250 km |
+| L 6    |   300,000 AP | 8000 XM  | 1500 km |
+| L 7    |   600,000 AP | 9000 XM  | 1750 km |
+| L 8    |   1,200,000 AP | 10000 XM  | 2000 km |
+| L 9    |   2,400,000 AP | 11500 XM  | 2250 km |
+| L 10    |   4,000,000 AP | 13000 XM  | 2500 km |
+| L 11    |   6,000,000 AP | 14500 XM  | 2750 km |
+| L 12    |   8,400,000 AP | 16000 XM  | 3000 km |
+| L 13    |   12,000,000 AP | 17500 XM  | 3250 km |
+| L 14    |   17,000,000 AP | 19000 XM  | 3500 km |
+| L 15    |   24,000,000 AP | 20500 XM  | 3750 km |
+| L 16    |   40,000,000 AP | 22000 XM  | 4000 km |
+
+除了 AP 需求之外, L9-L16还需要额外的成就要求. 高级成就同时计入低级成就(比如一个金牌=一个金牌+一个银牌). 
+| 等级     |  银牌|   金牌  | 白金牌 |黑牌 |
+| :--------: | :--------:| :------: | :------: |:------: |
+| L 9    |  4  | 1  | - | - |
+| L 10    |  5  | 2  | - | - |
+| L 11    |  6  | 4  | - | - |
+| L 12    |  7  | 6  | - | - |
+| L 13    |  -  | 7  | 1 | - |
+| L 14    |  -  | -  | 2 | - |
+| L 15    |  -  | -  | 3 | - |
+| L 16    |  -  | -  | 4 | 2 |
+升级攻略请参考 升级指南 一节. 
+
+L1-L8升级带来的好处是最明显的: 升入高级后可以使用更高级的物品. L9-L16升级带来的好处相比来说没有那么直接. 充电距离上限的提升对于大部分玩家来说帮助不大, 但 XM 上限的提升确实很有帮助. 请参考 对刷指南 一节. 
+
+#### 充电
+当Portal 在 Scanner 距离内, 无需 Portal Key 可直接进行充电. 如在 Scanner 距离外, 则需 Portal Key. 充电效率根据此公式进行计算: 100 - (距离(以 km 为单位)) / (5*玩家等级). 充电效率在50%处截止, 即如果距离使得充电效率<50%, 则不可充电. 因此每升一级, 最大充电距离增加 250 km. 充电距离上限是 4000 km. 
+
+充电有两种模式, Recharge All(平均分配 XM 至每个 Res)和 Recharge 单个 Res. 通常充电 Recharge All, 在对刷等特殊场景时, 有时需要 Recharge 单个 Res. 
+
+每次常规的充电操作将消耗玩家 1000XM, 实际充入的 XM 将按照充电效率进行折算. (成就中统计的是哪个?) 充电完成后多余的 XM 将会返回给玩家. 
+
+长按 Recharge All 将可以最多一次性消耗玩家 10000XM 用于充电, 是快速充电的利器. 
+
+每次充电操作将得到 10AP(无论长按与否). 
+
 ### Portal 解析
-Mitigation: 盾/ link
+对于一个 Portal 来说, 有如下一些指标: 
+- Level. 
+Portal 的等级由平均 Res 等级决定. 实际显示在 Portal 上的等级向下取整. 比如一个玩家独自可部署的最高级 Portal: 87665544, 其平均 Res 等级为(8+7+6+6+5+5+4+4)/8=5.625, 显示为5级. 
+- Mitigation: 盾/ link
+ Mitigation 的数值大小即是较少的伤害百分比. 比如一个 Portal 的 Mitigation 为80, 那么其上 Res实际受到的伤害为 Mitigation 为零时的20%. Portal 默认的 Mitigation 是零, 可以通过以下两种方式提升 Mitigation: 
+ - 部署 Portal Shield. 请参考 Mod 一节. 
+ - Link. 当 Portal 连接有 Link 将会提升 Mitigation. Link 数少时对 Mitigation 的提升比较快. 当 Link 较多时, 增长趋缓.  事实上, 其对防御的提升近似由 4/9*arctan(Link 数/ e)给出. 
+    | Link 数量     |    对 Mitigation的贡献| 
+    | :--------: | :--------:| 
+    | 1      |   9.87 |  
+    | 2      |   19.03 | 
+    | 3      |   27.02 | 
+    | 4      |   33.74 |  
+    | 5      |   39.27 |  
+由上表可见 3根 Link 的防御效果相当于一个 Common 盾, 5根 Link 的防御效果相当于一个 Rare 盾. 其对于 Portal 防御的提升效果明显. 而且 Link 不像 Mod, 没有被除去的几率. 只有当 Portal 上的 Res 数量小于三时, 其上的 Link 才会消失. 
 
-Attack Power
+ 需要注意的是, Mitigation 的上限为95. 即当根据上述法则计算得到的Mitigation 大于95时, Mitigation将被强行设置成95. 
+- Distance of Link Length
+ Portal 的最长 Link 距离=160m*平均 Res 等级^4. 比如一个玩家独自可部署的最高级 Portal 其平均 Res 等级为5.625, Link 距离为 160m*5.625=160.18km. 对于同一个城市间的 Link, 这个距离通常已经足够了. 
 
-Distance of Link Length
+ 使用 Link Amp 可以额外增加这一数值. 请参考 Mod 一节. 
+ 
+- Number of Hacks before Burnout
+ 在 Burnout 之前, 一个 Portal 可以 Hack 四次. 使用 Multi-Hack 可以额外增加这一数值. 请参考 Mod 一节. 
+- Wait Time between Hacks (cool down time)
+ 两次 Hack 之间的冷却时间为 5 分钟.  使用 Heat Sink 可以额外增加这一数值. 请参考 Mod 一节. 
+- Attack Range
+ 当 Hack 或者攻击敌方 Portal 时将会受到 Portal 的攻击. Portal 的攻击范围为 
+  | 等级     |   攻击范围|   
+  | :--------: | :--------:| 
+  | L 1    |   45m |
+  | L 2    |   50m |
+  | L 3    |   55m| 
+  | L 4    |   60m | 
+  | L 5    |   65m  | 
+  | L 6    |   70m	 | 
+  | L 7    |   75m |  
+  | L 8    |   80m  | 
+  事实上, 这一公式为 40m+(5*Portal 等级). 
+- Attack Power
+  | 等级     |   攻击伤害|   
+  | :--------: | :--------:| 
+  | L 1    |   75 XM |
+  | L 2    |   150 XM |
+  | L 3    |   300 XM| 
+  | L 4    |   500 XM| 
+  | L 5    |   750 XM| 
+  | L 6    |   1125 XM| 
+  | L 7    |   1625 XM|  
+  | L 8    |   2500 XM| 
+  类似 XMP 对 Res 的攻击, Portal 对玩家的攻击也有一定几率发生双倍(Critical Hit). 被 L8的 Portal 双倍攻击一次就将损失 2500XM. 这还是不计入 Mod 的情况下.  这也是为什么在高级 Portal 群众使用 XMP 时 XM 损失很快的原因. 具体应对策略请参考 清理塔群 一节. 
 
-Number of Hacks before Burnout
+ 使用 Force Amp 可以额外增加伤害, 使用 Turret 可以额外增加双倍攻击概率. 请参考 Mod 一节. 
+- Number of Attacks
+使用 Turret 可以额外增加 Portal 攻击频率. 请参考 Mod 一节. 
+#### Hack
+Hack 操作将会消耗 XM. 数量为 50XM*Portal 等级. 
+| 等级     |   消耗 XM|   
+| :--------: | :--------:| 
+| L 1    |   50 XM |
+| L 2    |   100 XM |
+| L 3    |   150 XM| 
+| L 4    |   200 XM| 
+| L 5    |   250 XM| 
+| L 6    |   300 XM| 
+| L 7    |   350 XM|  
+| L 8    |   400 XM| 
+如果 Hack 敌方 Portal,  可以得到100AP, 但还要额外被敌方 Portal 攻击一次. 请参考 Portal 解析一节. 
 
-Wait Time between Hacks (cool down time)
+Hack 得到的物品等级取决于玩家等级和 Portal 等级. Portal 的有效等级= min(玩家等级,  Portal 等级). Hack 可能得到的 XMP 和 Res 的等级为Portal 的有效等级+2-1(越高等级的概率越低). 可能得到的 US, PowerCube 的等级为Portal 的有效等级. 比如一个5级玩家 Hack 一个7级 Portal, 他只可能得到: 4-7级的 Res 和XMP, 5级的 US 和 PowerCube. 
 
-Number of Attacks
+长按 Hack 可以进入 Glyph Hack 模式. 此时需要在规定时间内画出规定数目的 Glyph 从而获得更多道具. 
+| 等级     |   时间上限|  Glyph数目 |  Glyph Points |
+| :--------: | :--------:| :--------:| :--------:| 
+| L 1    |   22s  |1 |1 |
+| L 2    |   21s  |2 |2 |
+| L 3    |   20s | 2 |2 |
+| L 4    |   19s | 3 |4 |
+| L 5    |   18s | 3 |4 |
+| L 6    |  17s | 4  |8 |
+| L 7    |   16s |  4 |8 |
+| L 8    |   15s | 5 | 15 |
+除了得到更多道具之外, Glyph Hack 还可以得到更多 AP (画对一个 Glyph 有50AP, 全部画对有时间加成). 如果**所有 Glyph 都没有画错**, 可以增加 Glyph Points 以得到 Translator 成就. 得到的 Glyph Points 见上表. 
 
-hack glyph
-
-物品等级的获得 po 出物品等级+2-1
 ### 物品解析
 回收一个 n 级的 Res, XMP, US 以及 Powercube 时, 将得到 (20n) XM.
 
 回收一个 Common/Rare/Very Rare 的 Mod 以及病毒时, 将得到 40/80/100 XM.
 #### Resonator
-| 等级     |   能量|   部署者 XM 消耗  |
-| :--------: | :--------:| :------: |
-| L 1    |   1000 XM |50 XM  |
-| L 2    |   1500 XM |100 XM  |
-| L 3    |   2000 XM| 150 XM  |
-| L 4    |   2500 XM | 200 XM  |
-| L 5    |   3000 XM  | 250 XM  |
-| L 6    |   4000 XM	 | 300 XM  |
-| L 7    |   5000 XM	 |  350 XM  |
-| L 8    |   6000 XM	 |  400 XM  |
+| 等级     |   能量|   部署者 XM 消耗  | 每个玩家最多可部署的数量 |
+| :--------: | :--------:| :------: | :------: |
+| L 1    |   1000 XM |50 XM  | 8 |
+| L 2    |   1500 XM |100 XM  |4 |
+| L 3    |   2000 XM| 150 XM  |4 |
+| L 4    |   2500 XM | 200 XM  |4 |
+| L 5    |   3000 XM  | 250 XM  |2 |
+| L 6    |   4000 XM	 | 300 XM  |2 |
+| L 7    |   5000 XM	 |  350 XM  |1 |
+| L 8    |   6000 XM	 |  400 XM  |1 |
+
+注意到部署数量的限制, 一个八级玩家独立部署的 Portal 等级最高为5, 两个玩家为6, 三个八级玩家为 7, 八个玩家为8. 
 #### 武器
 ##### XMP
 | 等级     |   伤害范围 |   中心区平均伤害   |   释放者 XM 消耗  |
@@ -187,11 +305,11 @@ Mod 按照稀有程度分为大体分为三级: Common, Rare, Very Rare. 部署�
     | 等级      |    Mitigation |  Stickiness   |
     | :--------: | :--------:| :------: |
     | Common    |   30 | 0  |
-    | Rare    |   40 | +15%  |
-    | Very  Rare    |   60 | +45%  |
-    | Very  Rare (AXA)    |  70 | +80%  |
+    | Rare    |   40 | 150000  |
+    | Very  Rare    |   60 | 450000  |
+    | Very  Rare (AXA)    |  70 | 800000  |
 
-    - Mitigation 即 Portal Shield 减少 Res 受到的伤害的百分比. 这一数据直接叠加, 比如有两个 C 盾的 Portal 只受到原有伤害的 100-30*2=40% 的伤害. 但起上限为 95. 比如有两个 VR 盾的 Portal 由于 60*2>95, 因此受到原有伤害的 5% 的伤害. 除了 Portal Shield 以外, link 的存在也可以增强 Portal 防御. 请参考 Portal 解析.
+    - Mitigation 即 Portal Shield 减少 Res 受到的伤害的百分比. 这一数据直接叠加, 比如有两个 C 盾的 Portal 只受到原有伤害的 100-30*2=40% 的伤害. 但其上限为 95. 比如有两个 VR 盾的 Portal 由于 60*2>95, 因此受到原有伤害的 5% 的伤害. 除了 Portal Shield 以外, link 的存在也可以增强 Portal 防御. 请参考 Portal 解析.
     - 尚不清楚 Stickiness 数据的作用. Stickiness 数据最早从 Intel Map 返回的数据中解析获得. 通常认为 Stickiness 代表盾不容易被破除的程度. 以及 Stickiness 越大越好.
     - AXA 盾出现在2014年12月15日,  是 AXA 保险赞助的结果. 它可以从任何 Portal 上通过 Hack 得到, 比 VR 盾更为稀有. 从 AXA 保险的 Portal 上 Hack 得到的几率更大. (大陆范围内暂时没有 AXA 保险 Po) https://plus.google.com/wm/1/+Ingress/posts/6E6wBwsNqC6
 
@@ -285,9 +403,8 @@ Media 通常指向与游戏剧情或新闻有关的链接. 通常唯一的作用
 #### 9-16牌子
 
 ### 游戏技巧
-- 长按 hack/ fire / recharge
 - 多重
-- 一些基本的进攻/防守技巧(床 po/对刷 装备配比)
+- 一些基本的进攻/防守技巧(床 po/对刷 装备配比 清理塔群)
 - 插脚尽可能远
 - mod 部署指南
     由于部署相同的 Mod 会造成效果的衰减, 为了最大化 Portal 对敌对阵营玩家的攻击效果, 一个 Force Amp 与一个 Turret 是比较经济的. 实际防御时
