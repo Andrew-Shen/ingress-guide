@@ -12,30 +12,16 @@ Ingress 社区准则原文: https://support.google.com/ingress/answer/2808360?hl
 强烈建议所有玩家在游戏前均仔细阅读此守则.
 
 此处只强调两点:
-<<<<<<< HEAD
 - 作弊.
     > 虽然欺诈者只能想像出有限的欺诈手段，但至少包括以下方式：使用修改过的或非官方的软件；使用多个帐户玩游戏（每个玩家仅可使用一个帐户）；共享帐户；交易作弊；借助工具或技术来更改或伪造你的位置；出售或交易帐户。
-=======
-- Cheating.
-
-    > Methods of cheating, unfortunately, are limited only by cheaters' imaginations, but include at a minimum the following: using modified or unofficial software, playing with multiple accounts (one account per player, please); sharing accounts; win trading; using tools or techniques to alter or falsify your location; or selling or trading accounts.
->>>>>>> origin/master
 
     - 请务必从 Google Play (Android) 或者 App Store (iOS) 上获得游戏. 曾经有很多使用第三方市场上的 Ingress 从而被封号的案例. 
     - 请务必保持一人一帐号. 任何小号, 包括仓库号, 都是被禁止的.
     - 原则上, 官方不限制一号多机. 但以一号多机的形式与其他玩家分享账号是被禁止的.
-<<<<<<< HEAD
     - 请不要伪造地点(俗称"飞机"). 有一类不可避免的情况是定位出现漂移(在室内经常出现). 定位出现漂移时, **请不要进行任何操作.** 请重启游戏或等待定位恢复正常后再进行操作. 
 
 - 与用户和旁观者联系.
     >玩游戏时与他人发生不该有的身体接触？偷拍其他玩家或旁观者或偷偷录制相关视频？侮辱其他玩家或旁观者或言语污秽？你在开玩笑吗？千万别那样做。如果有人争强好斗、恶意挑衅、冒犯无礼、刻意保护某个特定Portal或激怒了你，请不予理睬，也不要参与其中。出现这种情况时，请暂时回避或在Comm中屏蔽他们。
-=======
-    - 请不要伪造地点(俗称"飞机"). 有一类不可避免的情况是 GPS 出现漂移(在室内经常出现). 在 GPS 出现漂移时, 请不要进行任何操作. 请重启游戏或等待 GPS 恢复正常, 在恢复正常地点时再进行操作.
-
-- Contact with Users and Bystanders.
-
-    >Unwanted physical contact with anyone while playing the game? Unwanted videotaping or photographing of other players or bystanders? Insults or obscenities directed toward other players or bystanders? Are you kidding? No - don't do it. If someone is being aggressive, trolling, offensive, overly protective of a specific Portal or just plain gets on your nerves; ignore them and don't engage. Temporarily remove yourself from the situation and/or block them in Comm.
->>>>>>> origin/master
 
     Google 充分保护 Ingress 玩家的隐私. 玩家没有任何义务响应其他玩家的要求: 比如要求在 Comm 中回复消息以自证不是飞机, 或者露面以自证不是飞机. 当遇到此类无理请求, 可直接无视不必响应. 玩家不必担心对方举报. 在没有确切的证据时, Google 不会封禁玩家账号.
 
@@ -55,11 +41,6 @@ Ingress 社区准则原文: https://support.google.com/ingress/answer/2808360?hl
 - 删号/改名. 游戏中所有属于该玩家的 Resonator 消失. 已申请的 Portal 右下角显示"By AgentXXX". 
   图
 
-<<<<<<< HEAD
-=======
-还需要注意, 游戏鼓励玩家步行. 当运动速度超过 40km/h 时, 将会受到游戏的惩罚: 无法充电, Hack 得不到物品等. 出现这种情况时往往过一段时间后重启游戏即可.
-
->>>>>>> origin/master
 ### 辅助工具
 #### Intel Map
 从官方的 Intel Map 上, 可以及时查看到世界上任何一处的游戏信息:
@@ -81,35 +62,19 @@ https://www.ingress.com/intel. 善于使用 Intel Map 可以显著提高游戏�
 #### App
 Android 系统中有一些十分实用的 App 可以配合 Ingress 游戏使用:
 - Integrated Timer for Ingress: 记录并自动提示 Hack 的冷却时间/剩余 Hack 次数/ Burnout 冷却时间等.
-
     https://play.google.com/store/apps/details?id=com.trigonesoft.iti
-
 - Ingress Helper: 运行 Ingress 时保持屏幕常亮/ GPS 活动. 可辅助用于 Trekker 成就的取得.
-
     https://play.google.com/store/apps/details?id=de.nphardy.ingresshelper
-<<<<<<< HEAD
 - Ingress Portal Calc:  可以计算一系列与 Portal 有关的参数, 如最长 Link 距离等.
-=======
-
-- Ingress Portal Calc:  可以计算一系列与 Portal 有关的参数, 如最长 link 距离等.
-
->>>>>>> origin/master
     https://play.google.com/store/apps/details?id=com.gombosdev.ingressportalcalc
-
 - Ingress Intel Helper: 适配手机屏幕的移动版 Intel 地图.
-
     https://play.google.com/store/apps/details?id=com.bb.ingressintel
 
 #### Ingress Stats
 一个用于记录和分析个人 Ingress 数据的网站: https://www.agent-stats.com/
 
-<<<<<<< HEAD
 ### Agent 解析
 每位玩家在认证之前只有仓位上限100. 认证之后仓位上限为2000. 这一数字不会随着等级的提高而增加. 
-=======
-### 等级解析
-每位玩家在认证之前只有仓位上限100. 认证之后仓位上限为2000. 这一数字不会随着等级的提高而增加.
->>>>>>> origin/master
 
 | 等级     |  升级所需 AP |   XM 上限  | Recharge 距离上限 |
 | :--------: | :--------:| :------: | :------: |
@@ -130,12 +95,7 @@ Android 系统中有一些十分实用的 App 可以配合 Ingress 游戏使用:
 | L 15    |   24,000,000 AP | 20500 XM  | 3750 km |
 | L 16    |   40,000,000 AP | 22000 XM  | 4000 km |
 
-<<<<<<< HEAD
 除了 AP 需求之外, L9-L16 还需要额外的成就要求. 高级成就同时计入低级成就(比如一个金牌=一个金牌+一个银牌). 
-=======
-除了 AP 需求之外, L9-L16还需要额外的成就要求. 高级成就同时计入低级成就(比如一个金牌=一个金牌+一个银牌).
-
->>>>>>> origin/master
 | 等级     |  银牌|   金牌  | 白金牌 |黑牌 |
 | :--------: | :--------:| :------: | :------: |:------: |
 | L 9    |  4  | 1  | - | - |
@@ -146,8 +106,8 @@ Android 系统中有一些十分实用的 App 可以配合 Ingress 游戏使用:
 | L 14    |  -  | -  | 2 | - |
 | L 15    |  -  | -  | 3 | - |
 | L 16    |  -  | -  | 4 | 2 |
+升级攻略请参考 升级指南 一节. 
 
-<<<<<<< HEAD
 L1-L8 升级带来的好处是最明显的: 升入高级后可以使用更高级的道具. L9-L16 升级带来的好处相比来说没有那么直接. 充电距离上限的提升对于大部分玩家来说意义不大, 但 XM 上限的提升确实很有帮助. 
 
 下图直观地显示了 L9-L16 的需求以及带来的好处: 
@@ -231,124 +191,6 @@ Hack 得到的物品等级取决于玩家等级和 Portal 等级. Portal 的有�
 长按 Hack 可以进入 Glyph Game. 此时需要在规定时间内画出规定数目的 Glyph 从而获得更多道具. 
 | Portal 的**有效等级**     |   时间上限|  Glyph 数目 |  Glyph 分数 |
 | :--------: | :--------:| :--------:| :--------:| 
-=======
-升级攻略请参考 升级指南 一节.
-
-L1-L8升级带来的好处是最明显的: 升入高级后可以使用更高级的物品. L9-L16升级带来的好处相比来说没有那么直接. 充电距离上限的提升对于大部分玩家来说帮助不大, 但 XM 上限的提升确实很有帮助. 请参考 对刷指南 一节.
-
-#### 充电
-Portal 上的 Res 每24小时(从被占领的一刻算起后24小时. 比如一个 Portal 是当地时间下午三点占领的, 那么第二天下午三点 Portal 将会 Decay)会 Decay Res XM上限15%的 XM. 一个满状态的 Portal, 如果不充电不受攻击, 7天会完全 Decay 成中立. 在有特殊活动时速度可能会加快. 曾经因为剧情原因, 一度每天 Decay 达25%.
-
-当Portal 在 Scanner 距离内, 无需 Portal Key 可直接进行充电. 如在 Scanner 距离外, 则需 Portal Key. 充电效率根据此公式进行计算: 100 - (距离(以 km 为单位)) / (5*玩家等级). 充电效率在50%处截止, 即如果距离使得充电效率<50%, 则不可充电. 因此每升一级, 最大充电距离增加 250 km. 充电距离上限是 4000 km.
-
-充电有两种模式, Recharge All(平均分配 XM 至每个 Res)和 Recharge 单个 Res. 通常充电 Recharge All, 在对刷等特殊场景时, 有时需要 Recharge 单个 Res.
-
-每次常规的充电操作将消耗玩家 1000XM, 实际充入的 XM 将按照充电效率进行折算. (成就中统计的是哪个?) 充电完成后多余的 XM 将会返回给玩家.
-
-长按 Recharge All 将可以最多一次性消耗玩家 10000XM 用于充电, 是快速充电的利器.
-
-每次充电操作将得到 10AP(无论长按与否).
-
-### Portal 解析
-对于一个 Portal 来说, 有如下一些指标:
-- Level.
-
-    Portal 的等级由平均 Res 等级决定. 实际显示在 Portal 上的等级向下取整. 比如一个玩家独自可部署的最高级 Portal: 87665544, 其平均 Res 等级为(8+7+6+6+5+5+4+4)/8=5.625, 显示为5级.
-
-- Mitigation: 盾/ link
-
-    Mitigation 的数值大小即是较少的伤害百分比. 比如一个 Portal 的 Mitigation 为80, 那么其上 Res实际受到的伤害为 Mitigation 为零时的20%. Portal 默认的 Mitigation 是零, 可以通过以下两种方式提升 Mitigation:
-
-    - 部署 Portal Shield. 请参考 Mod 一节.
-    - Link. 当 Portal 连接有 Link 将会提升 Mitigation. Link 数少时对 Mitigation 的提升比较快. 当 Link 较多时, 增长趋缓.  事实上, 其对防御的提升近似由 4/9*arctan(Link 数/ e)给出.
-
-        | Link 数量     |    对 Mitigation的贡献|
-        | :--------: | :--------:|
-        | 1      |   9.87 |
-        | 2      |   19.03 |
-        | 3      |   27.02 |
-        | 4      |   33.74 |
-        | 5      |   39.27 |
-
-        由上表可见 3根 Link 的防御效果相当于一个 Common 盾, 5根 Link 的防御效果相当于一个 Rare 盾. 其对于 Portal 防御的提升效果明显. 而且 Link 不像 Mod, 没有被除去的几率. 只有当 Portal 上的 Res 数量小于三时, 其上的 Link 才会消失.
-
-    需要注意的是, Mitigation 的上限为95. 即当根据上述法则计算得到的Mitigation 大于95时, Mitigation将被强行设置成95.
-
-- Distance of Link Length
-
-    Portal 的最长 Link 距离=160m*平均 Res 等级^4. 比如一个玩家独自可部署的最高级 Portal 其平均 Res 等级为5.625, Link 距离为 160m*5.625=160.18km. 对于同一个城市间的 Link, 这个距离通常已经足够了.
-
-    使用 Link Amp 可以额外增加这一数值. 请参考 Mod 一节.
-
-- Number of Hacks before Burnout
-
-    在 Burnout 之前, 一个 Portal 可以 Hack 四次. 使用 Multi-Hack 可以额外增加这一数值. 请参考 Mod 一节.
-
-- Wait Time between Hacks (cool down time)
-
-    两次 Hack 之间的冷却时间为 5 分钟.  使用 Heat Sink 可以额外增加这一数值. 请参考 Mod 一节.
-
-- Attack Range
-
-    当 Hack 或者攻击敌方 Portal 时将会受到 Portal 的攻击. Portal 的攻击范围为
-
-    | 等级     |   攻击范围|
-    | :--------: | :--------:|
-    | L 1    |   45m |
-    | L 2    |   50m |
-    | L 3    |   55m|
-    | L 4    |   60m |
-    | L 5    |   65m  |
-    | L 6    |   70m	 |
-    | L 7    |   75m |
-    | L 8    |   80m  |
-
-    事实上, 这一公式为 40m+(5*Portal 等级).
-
-- Attack Power
-
-    | 等级     |   攻击伤害|
-    | :--------: | :--------:|
-    | L 1    |   75 XM |
-    | L 2    |   150 XM |
-    | L 3    |   300 XM|
-    | L 4    |   500 XM|
-    | L 5    |   750 XM|
-    | L 6    |   1125 XM|
-    | L 7    |   1625 XM|
-    | L 8    |   2500 XM|
-
-    类似 XMP 对 Res 的攻击, Portal 对玩家的攻击也有一定几率发生双倍(Critical Hit). 被 L8的 Portal 双倍攻击一次就将损失 2500XM. 这还是不计入 Mod 的情况下.  这也是为什么在高级 Portal 群众使用 XMP 时 XM 损失很快的原因. 具体应对策略请参考 清理塔群 一节.
-
-    使用 Force Amp 可以额外增加伤害, 使用 Turret 可以额外增加双倍攻击概率. 请参考 Mod 一节.
-
-- Number of Attacks
-
-    使用 Turret 可以额外增加 Portal 攻击频率. 请参考 Mod 一节.
-
-#### Hack
-Hack 操作将会消耗 XM. 数量为 50XM*Portal 等级.
-
-| 等级     |   消耗 XM|
-| :--------: | :--------:|
-| L 1    |   50 XM |
-| L 2    |   100 XM |
-| L 3    |   150 XM|
-| L 4    |   200 XM|
-| L 5    |   250 XM|
-| L 6    |   300 XM|
-| L 7    |   350 XM|
-| L 8    |   400 XM|
-
-如果 Hack 敌方 Portal,  可以得到100AP, 但还要额外被敌方 Portal 攻击一次. 请参考 Portal 解析一节.
-
-Hack 得到的物品等级取决于玩家等级和 Portal 等级. Portal 的有效等级= min(玩家等级,  Portal 等级). Hack 可能得到的 XMP 和 Res 的等级为Portal 的有效等级+2-1(越高等级的概率越低). 可能得到的 US, PowerCube 的等级为Portal 的有效等级. 比如一个5级玩家 Hack 一个7级 Portal, 他只可能得到: 4-7级的 Res 和XMP, 5级的 US 和 PowerCube.
-
-长按 Hack 可以进入 Glyph Hack 模式. 此时需要在规定时间内画出规定数目的 Glyph 从而获得更多道具.
-
-| Portal 的**有效等级**     |   时间上限|  Glyph数目 |  Glyph Points |
-| :--------: | :--------:| :--------:| :--------:|
->>>>>>> origin/master
 | L 1    |   22s  |1 |1 |
 | L 2    |   21s  |2 |2 |
 | L 3    |   20s | 2 |2 |
@@ -358,7 +200,6 @@ Hack 得到的物品等级取决于玩家等级和 Portal 等级. Portal 的有�
 | L 7    |   16s |  4 |8 |
 | L 8    |   15s | 5 | 15 |
 
-<<<<<<< HEAD
 除了得到更多道具之外, Glyph Game 还可以得到更多 AP (画对一个 Glyph 有 50AP, 全部画对还有速度加成). 如果**所有 Glyph 都没有画错**, 可以增加 Glyph 分数以得到 Translator 成就. 得到的 Glyph 分数见上表. 
 
 进行 Glyph Game 时有一个技巧: 当Glyph 画错时可以直接点按手机的 Home 键返回桌面. 再次切换进 Ingress 时, 本次 Glyph Game 会中断, 并不计入 Hack. 可以重新再进行一次 Glyph Game. (当然出现的 Glyph 是不一样的. )
@@ -375,19 +216,11 @@ Hack 得到的物品等级取决于玩家等级和 Portal 等级. Portal 的有�
 - 最常见的 Portal 照片右下角显示的"By #Agent Name#"是蓝色或绿色的字体. 这些 Portal 来源于玩家的申请. 
 ![Alt text](./1430668816606.png)
 
-=======
-除了得到更多道具之外, Glyph Hack 还可以得到更多 AP (画对一个 Glyph 有50AP, 全部画对有时间加成). 如果**所有 Glyph 都没有画错**, 可以增加 Glyph Points 以得到 Translator 成就. 得到的 Glyph Points 见上表.
-
-进行 Glyph Hack 时有一个技巧, 当Glyph 画错时可以直接按手机的 Home 键返回桌面. 再次切换进 Ingress 时, 本次 Glyph Hack 会中断, 可以重新再画一次(当然出现的 Glyph 是不一样的).
-
-所有可能的 Glyph 是有限的, 参考: http://glyphtionary.com/ 实际出现的 Glyph 组合也是有限的. 多加练习, 熟能生巧, 掌握 Glyph Hack 并非难事.
->>>>>>> origin/master
 
 ### 物品解析
 回收一个 n 级的 Res, XMP, US 以及 Powercube 时, 将得到 (20n) XM.
 
 回收一个 Common/Rare/Very Rare 的 Mod 以及病毒时, 将得到 40/80/100 XM.
-
 #### Resonator
 | 等级     |   能量|   部署者 XM 消耗  | 每个玩家最多可部署的数量 |
 | :--------: | :--------:| :------: | :------: |
@@ -400,11 +233,7 @@ Hack 得到的物品等级取决于玩家等级和 Portal 等级. Portal 的有�
 | L 7    |   5000 XM	 |  350 XM  |1 |
 | L 8    |   6000 XM	 |  400 XM  |1 |
 
-<<<<<<< HEAD
 注意到部署数量的限制, 一位八级玩家独立部署的 Portal 等级最高为5, 两位玩家为6, 三位八级玩家为 7, 八位玩家为8. 
-=======
-注意到部署数量的限制, 一个八级玩家独立部署的 Portal 等级最高为5, 两个玩家为6, 三个八级玩家为 7, 八个玩家为8.
->>>>>>> origin/master
 
 #### 武器
 ##### XMP
@@ -509,13 +338,7 @@ Mod 按照稀有程度分为大体分为三级: Common, Rare, Very Rare. 部署�
     | Very Rare    |   *7 |
 
     - 与 Force Amp 和 Turret 类似, 当部署第二个 Link Amp 时,  效果减为 1/4. 部署第三和第四个 Link Amp 时, 效果减为 1/8. 与部署先后顺序无关, 以最大的算法为准. (总是认为 Very Rare 的 Link Amp 是先部署的. )
-<<<<<<< HEAD
         比如一个8级 Portal, 全部部署 R 的 Link Amp, 其 Portal Range 为 $655.36\,\mathrm{km}\times(2+0.5+0.25+0.25)=1966.08\,\mathrm{km}$. 全部部署 VR 的 Link Amp, 其 Portal Range 为 $655.36\,\mathrm{km}\times(7+1.75+0.875+0.875)=6881.28\,\mathrm{km}$. 这也是目前游戏中能进行的最长的 Link.
-=======
-
-        比如一个8级 Portal, 插满 R 的 Link Amp, 其 Portal Range 为 655.36km*(2+0.5+0.25+0.25)=1966.08km. 插满 VR 的 Link Amp, 其 Portal Range 为 655.36km*(7+1.75+0.875+0.875)=6881.28km. 这也是目前游戏中能进行的最长的 Link.
-
->>>>>>> origin/master
     - Very Rare 的 Link Amp 无法通过 Hack 取得, 只能通过兑换代码等特殊途径获得.
 
     Link Amp 通常在大 Field 以及 Artifacts 活动中有用. 平时游戏中不常见.
@@ -526,7 +349,6 @@ Mod 按照稀有程度分为大体分为三级: Common, Rare, Very Rare. 部署�
     | Common    |   20% |
     | Rare    |   50% |
     | Very  Rare    |   70% |
-
     - 当部署第二, 第三或第四个 Heat Sink 时, 效果减半. (总是认为最稀有的 Heat Sink 是先部署的. )
 
         比如部署了一个 VR 的 Heat Sink 的 Portal, 其冷却时间为 $5\,\mathrm{min}\times(1-70\%)=1.5\,\mathrm{min}$. 部署了四个 VR 的 Heat Sink 的 Portal, 其冷却时间为 $5\,\mathrm{min}\times(1-0.7)(1-0.35)(1-0.35)(1-0.35)=24\,\mathrm{s}$.
@@ -548,12 +370,10 @@ Mod 按照稀有程度分为大体分为三级: Common, Rare, Very Rare. 部署�
     - 配合好 Mult-hack 与 Heat Sink, 可以最大化 Hack 次数. 一种常见的情形是: 先 Hack 四次一个 Portal 至 Burnout, 部署 R 的 Multi-hack, 可再 Hack 八次至 Burnout. 再部署 Heat Sink, (对于部署者)可再 Hack 十二次至 Burnout. 总共 Hack 次数为4+8+12=24次.
 
 - Force Amp
-
-    Force Amp 只有 Rare 一种, 可以使 Portal 攻击敌对阵营玩家时造成的伤害翻倍. 与 Link Amp 类似, 当部署第二个 Force Amp 时,  效果减为 1/4. 部署第三和第四个 Force Amp 时, 效果减为 1/8.
+Force Amp 只有 Rare 一种, 可以使 Portal 攻击敌对阵营玩家时造成的伤害翻倍. 与 Link Amp 类似, 当部署第二个 Force Amp 时,  效果减为 1/4. 部署第三和第四个 Force Amp 时, 效果减为 1/8.
 
 - Turret
-
-    Turret 只有 Rare 一种, 可以使 Portal 攻击敌对阵营玩家的频率翻倍, 并增加 30% 双倍攻击的概率. 与 Link Amp 和 Force Amp 类似, 当部署第二个 Force Amp 时,  效果减为 1/4. 部署第三和第四个 Force Amp 时, 效果减为 1/8.
+Turret 只有 Rare 一种, 可以使 Portal 攻击敌对阵营玩家的频率翻倍, 并增加 30% 双倍攻击的概率. 与 Link Amp 和 Force Amp 类似, 当部署第二个 Force Amp 时,  效果减为 1/4. 部署第三和第四个 Force Amp 时, 效果减为 1/8.
 
     由于部署相同的 Mod 会造成效果的衰减, 为了最大化 Portal 对敌对阵营玩家的攻击效果, 通常一个 Force Amp 与一个 Turret 是比较经济的.
 
@@ -595,7 +415,6 @@ Media 通常指向与游戏剧情或新闻有关的链接. 通常唯一的作用
 
 ### 游戏技巧
 ####  升级策略
-<<<<<<< HEAD
 以下操作可以获得 AP: 
 | 操作     |     获得 AP |  
 | :--------: | :-------:| 
@@ -635,52 +454,9 @@ Ingress 鼓励玩家的线下互动. 一个人升级是很辛苦的. 所以请�
 有时在线下遇见玩家, 不可避免地遇到对刷. 在大陆的网络环境下, 通常对刷防守方占优势. 原因是由于网络延迟和游戏刷新机制等原因, 显示在本地设备上的 Portal 状态不一定是服务器上 Portal 的实际状态. 通常 Portal 实际上已经为中立状态, 但显示在本地设备上仍属于防守方. 对于防守方, 无论Portal 中立与否, 都可以进行部署 Res 的操作. 但对于进攻方, 必须要等待在本地设备上显示为中立, 才可以部署 Res. 这就导致状态延迟造成了劣势. **通过进入 Portal 状态页面后离开, 部署 Res, 部署 Mod, 使用武器等方式可以强制 Scanner 刷新状态.** 
 
 下面讨论1v1对刷. 
-=======
-以下操作可以获得 AP:
 
-| 操作     |     获得 AP |
-| :--------: | :-------:|
-|Hack 敌方 Portal   |   100 AP |
-|Hack  本方或中立 Portal |   0 AP |
-|Glyph Hack 画对一个图   |   50 AP (全对有速度加成)|
-|充电    |   10 AP |
-|部署一个新的 Res	  |   125 AP   |
-| 升级自己的 Res   |   0 AP |
-|升级其他玩家的 Res  |   65 AP |
-|占领一个中立 Portal    |   500 AP |
-|将一个 Portal 完全部署   |   250 AP |
-| Link 两个 Portal   |   313 AP |
-|建立一个 Control Field|   	1250 AP  |
-|部署一个 Mod    |   125 AP |
-|摧毁一个 Res |   75 AP |
-|摧毁一条 Link    |   187 AP |
-|通过 Portal 申请    |   1000 AP |
-|通过 Portal 照片  |   500 AP |
-|修改 Portal 地点, 名称等信息   |   200 AP |
-|兑换 Passcode   |   50-1500 AP |
+退一步说, 就算不存在网络延迟, 在手速相同的情况下, 防守方依然占优势. 因为防守方只需在一个界面不断重复点击 Deploy, 而进攻方要在 Portal 中立后切换至部署界面部署, 需要额外操作. 
 
-从表中可以看出, 游戏更加鼓励建设. 在游戏初期, 由于低等级武器威力极为有限(参见物品解析一节), 因此低等级玩家升级最快的方式就是建设.  主要说来有两种方式:
-- 寻找附近的中立 Portal, 尽可能在其上部署满 Res. 将一个 Res 部署满可以获得 1750 AP.
-- 尽可能建立 Control Field. 由于建立 Field 获得的 AP 与大小无关, 所以新手升级时尽可能建设更多的 Field. 最大化 Field 数有多重的技巧, 请参考多重的专门教程.
-
-Ingress 鼓励玩家的线下互动. 一个人升级是很辛苦的. 所以请尽快找到附近的同阵营玩家组织. 在他们的帮助下(提供道具, 清理敌方 Portal), 你的升级肯定会事半功倍!
-
-
-####  一些技巧
-##### 平日技巧
-- 在部署 Res 时, 玩家距离 Portal 中心的距离就是所部署的 Res 距离 Portal 中心的距离. 根据 XMP 一节的介绍, XMP 的效果随着距离衰减. 因此部署 Res 时尽可能远离Portal 中心远一点. (Scanner 的半径是40m, 也是 Res 距离 Po 心可能的最远距离. L8 XMP 的最高伤害半径为30m, 这意味着远离Portal部署 Res 是有效的. ) 在部署 Res 时, 通过点击插槽还可以选择 Res 部署的位置(有红点的插槽意味着正北). 通常将高级 Res 部署在距离玩家最远的方向(比如河边的 Portal 将 Res 部署在河中心的位置), 可以尽可能多消耗对方 XMP. 如果没有特别的位置, 尽可能将高级 Res 对角线部署.
-- 部署 Shield 时,  通常至少部署两个 Common Shield. 一个 Common Shield 只增加30的 Mitigation, 效果极为有限.
--  根据 Mod 一节, 由于部署相同的 Mod 会造成效果的衰减, 为了最大化 Portal 对敌对阵营玩家的攻击效果, 一个 Force Amp 与一个 Turret 是比较经济的. 但不要在没有部署 Shield 的 Portal 上部署 Force Amp 和 Turret, 因为往往还没发挥效果 Portal 就被摧毁. 不要在低级 Portal 上部署 Force Amp 和 Turret, 因为低级 Portal 的伤害极为有限. 通常在 Farm 场中理想的防御 Mod 是七级或八级 Portal 上部署两个盾+Force Amp+ Turret.
-
-#####对刷技巧
-有时在线下遇见玩家, 不可避免地遇到对刷. 在大陆的网络环境下, 通常对刷防守方占优势. 原因是由于网络延迟和游戏刷新机制等原因, 显示在本地设备上的 Portal 状态不一定是服务器上 Portal 的实际状态. 通常 Portal 实际上已经为中立状态, 但显示在本地设备上仍是防守方的. 对于防守方, 无论Portal 中立与否, 都可以进行部署 Res 的操作. 但对于进攻方, 必须要在本地设备上显示为中立, 才可以部署 Res. 这就造成了劣势. 进入 Portal 状态页面后离开, 部署 Res, 部署 Mod, 释放武器等方式可以强制 Scanner 刷新状态.
-
-下面首先讨论1v1对刷.
->>>>>>> origin/master
-
-退一步说, 就算不存在网络延迟, 在手速相同的情况下, 防守方依然占优势. 因为防守方只需在一个界面不断重复点击 Deploy, 而进攻方要在 Portal 中立后切换至部署界面部署, 需要额外操作.
-
-<<<<<<< HEAD
 这是否意味着进攻方就没有机会了呢? 并非如此. 注意无论是部署Res 还是释放 XMP 都需要消耗 XM, 因此进攻方的机会在于防守方 XM 耗尽使用 Power Cube 时. 注意到高等级玩家的 XM 上限优势明显, 因此高等级玩家在1v1对刷时也占有更大优势. 因此
 - 对于防守方, 将高级 Res 部署在尽可能远离对方的位置, 并尽可能保持两个高级 Res 的能量差. (这样两个 Res 不容易被同时摧毁导致 Portal 中立. ) 有时需要部署低级 Res 来减少 XM 消耗. 这时体现出仓位里 Res 配比的重要性. 如果只有高级 Res, 在 Portal 上部署的 Res 数量有限, 不利于防守. 通常对刷时合适的 Res 配比是 L8:L7:L6:L5=1:1:2:2, 尽可能多在 Portal 上部署 Res. 
 - 对于进攻方, 除了提升手速以外没有太多办法. 有一个技巧是切换至慢速网络, 短时间内快速点击 Fire. 此时将会在瞬间同时释放大量 XMP, 瞬间将 Portal 变为中立, 不给防守方机会. 
@@ -696,22 +472,3 @@ Ingress 鼓励玩家的线下互动. 一个人升级是很辛苦的. 所以请�
 
 ##### 床 Po
 防守床Po 时, 注意不要将 Mod 插槽部署满防御 Mod. 一般至少留一个插槽部署 Multi-hack. 三个 Shield 一般也能提供足够的防御. 对于偏远或重要的床 Po, 可以考虑用病毒进行防守, 请参考 病毒 一节. 
-=======
-这是否意味着进攻方就没有机会了呢? 并非如此. 注意无论是部署Res 还是释放 XMP 都需要消耗 XM, 因此进攻方的机会在于防守方 XM 耗尽使用 Power Cube 时. 注意到高等级玩家的 XM 上限优势明显, 因此高等级玩家在1v1对刷时也占用更大优势. 因此
-- 对于防守方, 将高级 Res 部署在尽可能远离对方的位置, 并尽可能保持两个高级 Res 的能量差. (这样两个 Res 不容易被同时摧毁导致 Portal 中立. ) 有时需要部署低级 Res 来减少 XM 消耗. 这时体现出 Res 配比的重要性. 如果只有高级 Res, 在 Portal 上部署的 Res 数量有限, 不利于防守. 通常对刷时合适的 Res 配比是 L8:L7:L6:L5=1:1:2:2, 尽可能多在 Portal 上部署 Res.
-- 对于进攻方, 除了提升手速以外没有太多办法. 有一个技巧是切换至慢速网络, 短时间内快速点击 Fire. 此时将会在瞬间同时释放大量 XMP, 瞬间将 Portal 变为中立, 不给防守方机会.
-
-对于多人对刷,
-- 对于防守方, 两个人时两人都部署 Res, 如果有空可以部署 Shield. 三人时一人部署 Res, 两人部署 Shield, 可以保证 Portal 的 Mitigation 达到95.
-- 对于进攻方, 人多火力越猛, 可以有人专人负责抢先部署 Res.
-
-##### Farm 场
-如之前所说, 对于Farm 场的防御, 是尽量 Link, Mod 部署两个盾+Force Amp+ Turret, 甚至三个盾以及四个盾.
-
-清理 Farm 场时, 尤其是 L8 的 Farm 场, 在中心放下一个 L8 XMP, 基本上无论级别多高 XM 槽都会空血. (根据 Portal 解析, 没有 Mod 的 L8 Portal 一次攻击最多就可以造成5000XM 的伤害!) 这时有两个策略:
-- 从 Farm 场外围开始清理, 尽可能减少 XMP 波及的 Portal 范围.
-- 空血之后,  回收三个 L7 Res (140*3=420XM) 或者使用 L1PowerCube (1000XM), 然后释放一个 L8 XMP(400 XM). 因为在玩家 XM 为零后Portal就不再继续造成伤害了.
-
-##### 床 Po
-防守床Po 时, 注意不要将 Mod 插槽插满防御 Mod. 一般至少留一个插槽插 Multi-hack. 而三个盾一般也能提供足够的防御. 对于偏远或重要的床 Po, 可以考虑用病毒进行防守, 请参考病毒一节.
->>>>>>> origin/master
