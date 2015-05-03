@@ -1,4 +1,5 @@
 ## Ingress 进阶指南
+### 作者 AndrewShen
 
 ### 写在前面
 这是一份进阶的新手入门指南. 如果您第一次进行游戏, 请先通过游戏内置的教程以及阅读 Google 官方的新手入门教程学习基本概念与基本操作: 
@@ -116,7 +117,7 @@ L1-L8 升级带来的好处是最明显的: 升入高级后可以使用更高级
 #### Recharge
 Portal 上的 Resonator 每24小时进行一次 Decay.  Resonator 将会损失 XM 上限 15% 的 XM. 所谓24小时, 是从被占领的一刻算起后24小时: 比如一个 Portal 是当地时间下午三点占领的, 那么当地时间第二天下午三点 Portal 将会 Decay. 事实上, Ingress 中的任何统计均是实时滚动的. 一个满状态的 Portal, 如果不充电不受攻击, 7天会完全 Decay 成中立的状态. 受游戏剧情影响这一速度可能会加快. 曾经有出现过每天 Decay 25% 的情况. 
 
-当 Portal 在 Scanner 距离内, 无需 Portal Key 则可直接进行 Recharge. 如在 Scanner 距离外, 则需 Portal Key. Recharge 效率根据此公式进行计算: <img src="http://chart.googleapis.com/chart?cht=tx&chl=100 - \frac{\text{距离(以 km 为单位)}}{\text{玩家等级}\times 5}" style="border:none;">. 效率在 50% 处截止, 即如果 Portal 远离使得效率<50%, 则不可 Recharge. 因此每升一级, 最大距离增加 250 km, 距离上限是 4000 km. 
+当 Portal 在 Scanner 距离内, 无需 Portal Key 则可直接进行 Recharge. 如在 Scanner 距离外, 则需 Portal Key. Recharge 效率根据此公式进行计算: $100 - \frac{\text{距离(以 km 为单位)}}{\text{玩家等级}\times 5}$. 效率在 50% 处截止, 即如果 Portal 远离使得效率<50%, 则不可 Recharge. 因此每升一级, 最大距离增加 250 km, 距离上限是 4000 km. 
 
 Recharge 有两种模式, Recharge All (平均分配 XM 至每个 Resonator) 和 Recharge 单个 Resonator. 通常 Recharge All, 在对刷等特殊场景时, 有时需要 Recharge 单个 Resonator. 
 
