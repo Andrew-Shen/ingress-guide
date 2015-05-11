@@ -36,10 +36,12 @@ Ingress 社区准则原文: https://support.google.com/ingress/answer/2808360?hl
 #### 封号
 封号可以粗略分成三类: 
 - Semi-ban. 即之前所说运动速度过快进行的惩罚. 通常很快恢复正常. 
-- Complete-ban. 此时游戏中显示 "Scanner Failed",  Intel Map 中显示 "Account is not activated". 如果其他玩家看该玩家资料, 通常(即没有短时间内大量查看玩家资料)显示"Scanner running hot". 需要注意网络问题有时也会导致游戏中显示 "Scanner Failed". 确认 Complete-ban 需结合上述三个现象. 
+- Complete-ban. 此时游戏中显示 "Scanner Failed",  Intel Map 中显示 "Account is not activated". 如果其他玩家看该玩家资料, 通常(即没有短时间内大量查看玩家资料)显示"Scanner running hot". 需要注意网络问题有时也会导致游戏中显示 "Scanner Failed". 确认 Complete-ban 需结合上述三个现象.
+
 ![Alt text](./1430668080009.png)
 
-- 删号/改名. 游戏中所有属于该玩家的 Resonator 消失. 已申请的 Portal 右下角显示"By AgentXXX". 
+- 删号/改名. 游戏中所有属于该玩家的 Resonator 消失. 已申请的 Portal 右下角显示"By AgentXXX".
+
   图
 
 ### 辅助工具
@@ -97,6 +99,7 @@ Android 系统中有一些十分实用的 App 可以配合 Ingress 游戏使用:
 | L 16    |   40,000,000 AP | 22000 XM  | 4000 km |
 
 除了 AP 需求之外, L9-L16 还需要额外的成就要求. 高级成就同时计入低级成就(比如一个金牌=一个金牌+一个银牌). 
+
 | 等级     |  银牌|   金牌  | 白金牌 |黑牌 |
 | :--------: | :--------:| :------: | :------: |:------: |
 | L 9    |  4  | 1  | - | - |
@@ -107,11 +110,13 @@ Android 系统中有一些十分实用的 App 可以配合 Ingress 游戏使用:
 | L 14    |  -  | -  | 2 | - |
 | L 15    |  -  | -  | 3 | - |
 | L 16    |  -  | -  | 4 | 2 |
+
 升级攻略请参考 升级指南 一节. 
 
 L1-L8 升级带来的好处是最明显的: 升入高级后可以使用更高级的道具. L9-L16 升级带来的好处相比来说没有那么直接. 充电距离上限的提升对于大部分玩家来说意义不大, 但 XM 上限的提升确实很有帮助. 
 
-下图直观地显示了 L9-L16 的需求以及带来的好处: 
+下图直观地显示了 L9-L16 的需求以及带来的好处:
+
 ![Alt text](./1430669832448.png)
 
 #### Recharge
@@ -133,54 +138,65 @@ Recharge 有两种模式, Recharge All (平均分配 XM 至每个 Resonator) 和
 Portal 的等级由平均 Resonator 等级决定. 实际显示在 Portal 界面的等级向下取整. 比如一个玩家独自可部署的最高级 Portal, 其平均 Resonator 等级为 ${(8+7+6+6+5+5+4+4)}/{8}=5.625$, 显示为5级. Level 将会影响 Hack 得到道具的等级以及最长 Link 距离. 
 
 - 防御值(Mitigation)
- 防御值即是 Portal 受到攻击时, 其上 Resonator 减少的伤害的百分比. 比如一个 Portal 的防御值为80, 那么其上 Resonator 实际受到的伤害为防御值为零时的20%. Portal 默认的防御值是零, 可以通过以下两种方式提升防御值: 
- - 部署 Portal Shield. 请参考 Mod 一节. 
- - Link. 当 Portal 连接有 Link 将会提升防御值. Link 数少时对防御值的提升比较显著. 当 Link 较多时, 增长趋缓.  事实上, Link 对 防御值的提升近似由 $\frac{400}{9}\arctan(\text{Link}数/ e)$ 给出. 
-![Alt text](./1430671357330.png)
-特别地, 
+
+    防御值即是 Portal 受到攻击时, 其上 Resonator 减少的伤害的百分比. 比如一个 Portal 的防御值为80, 那么其上 Resonator 实际受到的伤害为防御值为零时的20%. Portal 默认的防御值是零, 可以通过以下两种方式提升防御值: 
+    - 部署 Portal Shield. 请参考 Mod 一节. 
+    - Link. 当 Portal 连接有 Link 将会提升防御值. Link 数少时对防御值的提升比较显著. 当 Link 较多时, 增长趋缓.  事实上, Link 对 防御值的提升近似由 $\frac{400}{9}\arctan(\text{Link}数/ e)$ 给出.
+
+    ![Alt text](./1430671357330.png)
+
+    特别地,
+
     | Link 数量     |    对防御值的贡献| 
     | :--------: | :--------:| 
     | 1      |   16 |  
     | 2      |   28 | 
     | 3      |   37 | 
     | 4      |   43 |  
-    | 5      |   48 |  
-由上表可见 2根 Link 的防御效果相当于一个 Common Shield, 3根 Link 的防御效果相当于一个 Rare Shield. 其对于 Portal 防御的提升效果明显. 而且 Link 相比于 Mod 被攻击时没有被去除的几率. 只有当 Portal 上的 Resonator 的数量小于 3 时, 其连接的 Link 才会消失. 
+    | 5      |   48 |
 
- 需要注意的是, 防御值的上限为95, 即当根据上述法则计算得到的防御值大于95时, 防御值将被强行设置成95. 
+    由上表可见 2根 Link 的防御效果相当于一个 Common Shield, 3根 Link 的防御效果相当于一个 Rare Shield. 其对于 Portal 防御的提升效果明显. 而且 Link 相比于 Mod 被攻击时没有被去除的几率. 只有当 Portal 上的 Resonator 的数量小于 3 时, 其连接的 Link 才会消失. 
+
+    需要注意的是, 防御值的上限为95, 即当根据上述法则计算得到的防御值大于95时, 防御值将被强行设置成95. 
  
 - 最长 Link 距离
- Portal 的最长 Link 距离为 $160\text{m}\times \text{(平均 Resonator 等级)}^4$. 比如之前已计算得到一个玩家独自可部署的最高级 Portal 其平均 Resonator 等级为5.625, 则 Link 距离为 $160\text{m}\times5.625=160.18\text{km}$. 对于同一个城市内的 Link, 这个距离通常已经足够了. 
 
- 部署 Link Amp 可以额外增加这一数值. 请参考 Mod 一节. 
+    Portal 的最长 Link 距离为 $160\text{m}\times \text{(平均 Resonator 等级)}^4$. 比如之前已计算得到一个玩家独自可部署的最高级 Portal 其平均 Resonator 等级为5.625, 则 Link 距离为 $160\text{m}\times5.625=160.18\text{km}$. 对于同一个城市内的 Link, 这个距离通常已经足够了. 
+
+    部署 Link Amp 可以额外增加这一数值. 请参考 Mod 一节. 
  
 - Burnout 前的 Hack 次数
- 在 Burnout 之前, 一个 Portal 可以被 Hack 四次. 使用 Multi-Hack 可以额外增加这一数值. 请参考 Mod 一节. 
+
+    在 Burnout 之前, 一个 Portal 可以被 Hack 四次. 使用 Multi-Hack 可以额外增加这一数值. 请参考 Mod 一节. 
  
 - Hack 间冷却时间
- 两次 Hack 之间的冷却时间为 5 分钟.  使用 Heat Sink 可以额外增加这一数值. 请参考 Mod 一节. 
+
+    两次 Hack 之间的冷却时间为 5 分钟.  使用 Heat Sink 可以额外增加这一数值. 请参考 Mod 一节. 
  
 - 攻击范围
- 当 Hack 或者攻击敌方 Portal 时将会受到 Portal 的攻击. Portal 的攻击范围为 $40\text{m}+(5\times\text{Portal 等级})$. 注意到 Scanner 的半径为 40m, 因此 Hack 时必然会受到攻击. 
+
+    当 Hack 或者攻击敌方 Portal 时将会受到 Portal 的攻击. Portal 的攻击范围为 $40\text{m}+(5\times\text{Portal 等级})$. 注意到 Scanner 的半径为 40m, 因此 Hack 时必然会受到攻击. 
  
 - 攻击力
-  | 等级     |   攻击伤害|   
-  | :--------: | :--------:| 
-  | L 1    |   75 XM |
-  | L 2    |   150 XM |
-  | L 3    |   300 XM| 
-  | L 4    |   500 XM| 
-  | L 5    |   750 XM| 
-  | L 6    |   1125 XM| 
-  | L 7    |   1625 XM|  
-  | L 8    |   2500 XM| 
-  
-  类似 XMP 对 Resonator 的攻击, Portal 对玩家的攻击也有一定几率发生双倍(Critical Hit). 被 L8 的 Portal 双倍攻击一次就将损失 5000XM, 这还是在不计入 Mod 的情况下!  这也是为什么在高级 Portal 群中使用 XMP 时 XM 损失很快的原因. 具体应对策略请参考 清理塔群 一节. 
 
- 使用 Force Amp 可以额外增加伤害, 使用 Turret 可以额外增加双倍攻击概率. 请参考 Mod 一节. 
+    | 等级     |   攻击伤害|   
+    | :--------: | :--------:| 
+    | L 1    |   75 XM |
+    | L 2    |   150 XM |
+    | L 3    |   300 XM| 
+    | L 4    |   500 XM| 
+    | L 5    |   750 XM| 
+    | L 6    |   1125 XM| 
+    | L 7    |   1625 XM|  
+    | L 8    |   2500 XM| 
+  
+    类似 XMP 对 Resonator 的攻击, Portal 对玩家的攻击也有一定几率发生双倍(Critical Hit). 被 L8 的 Portal 双倍攻击一次就将损失 5000XM, 这还是在不计入 Mod 的情况下!  这也是为什么在高级 Portal 群中使用 XMP 时 XM 损失很快的原因. 具体应对策略请参考 清理塔群 一节. 
+
+    使用 Force Amp 可以额外增加伤害, 使用 Turret 可以额外增加双倍攻击概率. 请参考 Mod 一节. 
 
 - 攻击频率
-使用 Turret 可以额外增加 Portal 攻击频率. 请参考 Mod 一节. 
+
+    使用 Turret 可以额外增加 Portal 攻击频率. 请参考 Mod 一节. 
 
 #### Hack
 Hack 操作将会消耗 XM. 数量为  $50\text{XM}\times\text{Portal 等级}$. 
@@ -189,7 +205,8 @@ Hack 操作将会消耗 XM. 数量为  $50\text{XM}\times\text{Portal 等级}$.
 
 Hack 得到的物品等级取决于玩家等级和 Portal 等级. Portal 的有效等级= min(玩家等级,  Portal 等级). Hack 可能得到的 XMP 和 Resonator 的等级为 Portal 的有效等级+2-1, 越高等级的概率越低. 可能得到的 Ultra Strike, Power Cube 的等级为 Portal 的有效等级. 比如一个5级玩家 Hack 一个7级 Portal, 他只可能得到: 4-7级的 Resonator 和 XMP, 5级的 Ultra Strike 和 Power Cube. 
 
-长按 Hack 可以进入 Glyph Game. 此时需要在规定时间内画出规定数目的 Glyph 从而获得更多道具. 
+长按 Hack 可以进入 Glyph Game. 此时需要在规定时间内画出规定数目的 Glyph 从而获得更多道具.
+
 | Portal 的**有效等级**     |   时间上限|  Glyph 数目 |  Glyph 分数 |
 | :--------: | :--------:| :--------:| :--------:| 
 | L 1    |   22s  |1 |1 |
@@ -209,19 +226,25 @@ Hack 得到的物品等级取决于玩家等级和 Portal 等级. Portal 的有�
 
 #### Portal 种类
 由于历史原因, Ingress 中的 Portal 主要有三类. 通常(在照片没有被替换过的情形下)可以从 Portal 显示的照片中看出. 
-- 最久远的 Portal 照片右下角显示的"By #Name#/unknown"是没有颜色的字体.  这些 Portal 来源于早期 NIA (如从 Panoramio 中)自动采集一些网络图片. 
- ![Alt text](./1430668472993.png)
- ![Alt text](./1430669238552.png)
-- 第二类久远的 Portal 照片右下角没有任何提示. 这些 Portal 来源于 Ingress 早期通过邮件提交的 Portal. 
-![Alt text](./1430668892366.png)
+- 最久远的 Portal 照片右下角显示的"By #Name#/unknown"是没有颜色的字体.  这些 Portal 来源于早期 NIA (如从 Panoramio 中)自动采集一些网络图片.
+
+    ![Alt text](./1430668472993.png)
+    ![Alt text](./1430669238552.png)
+
+- 第二类久远的 Portal 照片右下角没有任何提示. 这些 Portal 来源于 Ingress 早期通过邮件提交的 Portal.
+
+    ![Alt text](./1430668892366.png)
+
 - 最常见的 Portal 照片右下角显示的"By #Agent Name#"是蓝色或绿色的字体. 这些 Portal 来源于玩家的申请. 
-![Alt text](./1430668816606.png)
+
+    ![Alt text](./1430668816606.png)
 
 
 ### 物品解析
 回收一个 n 级的 Res, XMP, US 以及 Powercube 时, 将得到 (20n) XM.
 
 回收一个 Common/Rare/Very Rare 的 Mod 以及病毒时, 将得到 40/80/100 XM.
+
 #### Resonator
 | 等级     |   能量|   部署者 XM 消耗  | 每个玩家最多可部署的数量 |
 | :--------: | :--------:| :------: | :------: |
@@ -262,18 +285,20 @@ Portal 实际受到的伤害的计算还要考虑 Portal 本身的防御. 请参
 附已有的数据:
 - 未经官方确认的逆向工程结果:  https://groups.google.com/forum/#!topic/ingress-discuss/jEnHlKMyl5A
 
-   -  $$\text{XMP 伤害}=(\text{基础值}+\text{在此基础上的随机涨落})\times 0.5^{\frac{5\times \text{距离 Res 的距离}}{\text{XMP 最大伤害范围}}}.$$
-其中
-    | 等级     |    伤害基础值 |  随机涨落最大值   |
-    | :--------: | :--------:| :------: |
-    | L 1      |   136 |  180  |
-    | L 2      |   226 |  300  |
-    | L 3      |   406 |  540  |
-    | L 4      |   630 |  840  |
-    | L 5      |   900 |  1200  |
-    | L 6      |   1260 |  1680  |
-    | L 7      |   1800 |  2400  |
-    | L 8      |   2700 |  3600  |
+    -  $$\text{XMP 伤害}=(\text{基础值}+\text{在此基础上的随机涨落})\times 0.5^{\frac{5\times \text{距离 Res 的距离}}{\text{XMP 最大伤害范围}}}.$$
+
+        其中
+
+        | 等级     |    伤害基础值 |  随机涨落最大值   |
+        | :--------: | :--------:| :------: |
+        | L 1      |   136 |  180  |
+        | L 2      |   226 |  300  |
+        | L 3      |   406 |  540  |
+        | L 4      |   630 |  840  |
+        | L 5      |   900 |  1200  |
+        | L 6      |   1260 |  1680  |
+        | L 7      |   1800 |  2400  |
+        | L 8      |   2700 |  3600  |
 
    - $$\text{XMP 最大伤害范围}=40+2(\text{XMP 等级})^2$$
     
@@ -345,11 +370,13 @@ Mod 按照稀有程度分为大体分为三级: Common, Rare, Very Rare. 部署�
     Link Amp 通常在大 Field 以及 Artifacts 活动中有用. 平时游戏中不常见.
 
 - Heat Sink
+
     | 等级      |   冷却时间减少  |
     | :--------: | :--------:|
     | Common    |   20% |
     | Rare    |   50% |
     | Very  Rare    |   70% |
+
     - 当部署第二, 第三或第四个 Heat Sink 时, 效果减半. (总是认为最稀有的 Heat Sink 是先部署的. )
 
         比如部署了一个 VR 的 Heat Sink 的 Portal, 其冷却时间为 $5\,\mathrm{min}\times(1-70\%)=1.5\,\mathrm{min}$. 部署了四个 VR 的 Heat Sink 的 Portal, 其冷却时间为 $5\,\mathrm{min}\times(1-0.7)(1-0.35)(1-0.35)(1-0.35)=24\,\mathrm{s}$.
@@ -416,7 +443,8 @@ Media 通常指向与游戏剧情或新闻有关的链接. 通常唯一的作用
 
 ### 游戏技巧
 ####  升级策略
-以下操作可以获得 AP: 
+以下操作可以获得 AP:
+
 | 操作     |     获得 AP |  
 | :--------: | :-------:| 
 |Hack 敌方 Portal   |   100 AP | 
