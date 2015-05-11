@@ -38,11 +38,11 @@ Ingress 社区准则原文: https://support.google.com/ingress/answer/2808360?hl
 - Semi-ban. 即之前所说运动速度过快进行的惩罚. 通常很快恢复正常. 
 - Complete-ban. 此时游戏中显示 "Scanner Failed",  Intel Map 中显示 "Account is not activated". 如果其他玩家看该玩家资料, 通常(即没有短时间内大量查看玩家资料)显示"Scanner running hot". 需要注意网络问题有时也会导致游戏中显示 "Scanner Failed". 确认 Complete-ban 需结合上述三个现象.
 
-![Alt text](./1430668080009.png)
+    ![Alt text](./1430668080009.png)
 
 - 删号/改名. 游戏中所有属于该玩家的 Resonator 消失. 已申请的 Portal 右下角显示"By AgentXXX".
 
-  图
+    图
 
 ### 辅助工具
 #### Intel Map
@@ -65,12 +65,19 @@ https://www.ingress.com/intel. 善于使用 Intel Map 可以显著提高游戏�
 #### App
 Android 系统中有一些十分实用的 App 可以配合 Ingress 游戏使用:
 - Integrated Timer for Ingress: 记录并自动提示 Hack 的冷却时间/剩余 Hack 次数/ Burnout 冷却时间等.
+
     https://play.google.com/store/apps/details?id=com.trigonesoft.iti
+
 - Ingress Helper: 运行 Ingress 时保持屏幕常亮/ GPS 活动. 可辅助用于 Trekker 成就的取得.
+
     https://play.google.com/store/apps/details?id=de.nphardy.ingresshelper
+
 - Ingress Portal Calc:  可以计算一系列与 Portal 有关的参数, 如最长 Link 距离等.
+
     https://play.google.com/store/apps/details?id=com.gombosdev.ingressportalcalc
+
 - Ingress Intel Helper: 适配手机屏幕的移动版 Intel 地图.
+
     https://play.google.com/store/apps/details?id=com.bb.ingressintel
 
 #### Ingress Stats
@@ -135,6 +142,7 @@ Recharge 有两种模式, Recharge All (平均分配 XM 至每个 Resonator) 和
 ### Portal 解析
 一个 Portal 有如下指标: 
 - 等级(Level)
+
 Portal 的等级由平均 Resonator 等级决定. 实际显示在 Portal 界面的等级向下取整. 比如一个玩家独自可部署的最高级 Portal, 其平均 Resonator 等级为 ${(8+7+6+6+5+5+4+4)}/{8}=5.625$, 显示为5级. Level 将会影响 Hack 得到道具的等级以及最长 Link 距离. 
 
 - 防御值(Mitigation)
